@@ -1,0 +1,5 @@
+scene: orchard_demo
+start: [0.0, 0.0]
+goal: [10.0, 6.0]
+safe_distance: 1.0
+planner: straight_line_placeholder

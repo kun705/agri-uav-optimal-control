@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agri-uav-optimal-control"
+version = "0.1.0"
+description = "Research-oriented toolkit for agricultural UAV obstacle avoidance and optimal control"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "QIANKUN ZHOU"}
+]
+dependencies = [
+  "numpy>=1.24",
+  "matplotlib>=3.8"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
